@@ -6,6 +6,7 @@
     "axis": "0.4.x",
     "coffee-script": "1.9.x",
     "css-pipeline": "0.2.x",
+    "dynamic-content": "^0.3.0",
     "jade": "1.x",
     "jeet": "^6.1.2",
     "js-pipeline": "0.2.x",

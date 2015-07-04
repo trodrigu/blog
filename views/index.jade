@@ -24,17 +24,12 @@ block content
           p
             a(href="#") @tom_m_rod
     article
-      .index-post
-        a(href="/post.html")
-          h1 My first post of sheer wow
-        .date July 4th, 2015
-        p VHS biodiesel authentic Thundercats whatever, Bushwick farm-to-table DIY asymmetrical. Fixie Brooklyn McSweeney's, dreamcatcher pork belly readymade 3 wolf moon mlkshk flannel street art fingerstache...
-        a(href="#")
-          .read Read More
-      .index-post
-        a(href="/post.html")
-          h1 My first post of sheer wow
-        .date July 4th, 2015
-        p VHS biodiesel authentic Thundercats whatever, Bushwick farm-to-table DIY asymmetrical. Fixie Brooklyn McSweeney's, dreamcatcher pork belly readymade 3 wolf moon mlkshk flannel street art fingerstache...
-        a(href="#")
-          .read Read More
+      each post in site.posts
+        .index-post
+          a(href=post._url)
+            h1=  post.title
+          .date=  post.date
+          != post.content
+          p= post.snippet
+          a(href="#")
+            .read Read More
