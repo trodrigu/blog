@@ -18,11 +18,11 @@ block content
         .left        
           p His github:
           p
-            a(href="#") trodrigu
+            a(href="https://github.com/trodrigu") trodrigu
         .right 
           p He tweets at:
           p
-            a(href="#") @tom_m_rod
+            a(href="https://twitter.com/tom_m_rod") @tom_m_rod
     article
       each post in site.posts
         .index-post
@@ -31,5 +31,5 @@ block content
           .date=  post.date
           != post.content
           p= post.snippet
-          a(href="#")
+          a(href=post._url)
             .read Read More
