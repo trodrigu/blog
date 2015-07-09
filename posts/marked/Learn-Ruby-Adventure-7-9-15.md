@@ -1,4 +1,4 @@
-I spent the better part of the last two weeks finishing up a basic ruby centric app that was started about two weeks ago.  The interesting thing was that I didn't know how much I would truly learn from this.  I had just come off of doing a sizeable amount of work on my group project for SDLearn (I will elaborate in a future post) and had Rails on the brain.  Whenit came down to looking at all my classes and digesting their functionalities I knew I had my work cut out for me.  
+I spent the better part of the last two weeks finishing up a basic ruby centric app that was started about two weeks ago.  The interesting thing was that I didn't know how much I would truly learn from this.  I had just come off of doing a sizeable amount of work on my group project for SDLearn (I will elaborate in a future post) and had Rails on the brain.  When it came down to looking at all my classes and digesting their functionalities I knew I had my work cut out for me.  
 
 My process for building out the terminal game began with me writing a bit of code and then attempting to write a spec to get it to pass.  I realized with this process their really was only so much I could test and that testing actual strings might not have been the most useful usage of time.  Therefore, I concentrated mainly on the Map and Engine classes.
 
@@ -17,4 +17,10 @@ The next interesting part was the idea of setting a `@@LOSE_TOKEN` to signify th
 
 The loop here would keep going until the `LESSONS` hash had been cycled through.  `abort()` also allowed me to exit the program when the exit condition had been met.
 
-My ultimate take aways from this are that I is always good to refactor your code because in the long run you are doing yourself and your fellow coders a huge favor.  Also, I learned that Ruby's OOP makes it straightforward when it comes to planning your app or game out.  You can clone my simple terminal game at `https://github.com/trodrigu/adventure_game`.  Thanks for reading!
+My ultimate take aways from this are that I is always good to refactor your code because in the long run you are doing yourself and your fellow coders a huge favor.  Also, I learned that Ruby's OOP makes it straightforward when it comes to planning your app or game out.  
+
+You can clone my simple terminal game at 
+
+        https://github.com/trodrigu/adventure_game
+        
+Thanks for reading!
