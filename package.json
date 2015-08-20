@@ -17,6 +17,8 @@
     "stylus": "0.51.x"
   },
   "devDependencies": {
-    "jeet": "^6.1.2"
+    "jeet": "^6.1.2",
+    "react": "^0.13.3",
+    "roots-browserify": "^0.4.0"
   }
 }
