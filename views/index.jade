@@ -24,7 +24,12 @@ block content
           p
             a(href="https://twitter.com/tom_m_rod") @tom_m_rod
     article
-      - var postsOrdered = site.posts.reverse()
+      - var postsOrdered = sortDates(site.posts)
+      - function sortDates(postsArray) {
+      - return postsArray.sort(function(a, b) {
+      - return new Date(b.date) - new Date(a.date)
+      - });
+      -}
       each post in postsOrdered
         .index-post
           a(href=post._url)
