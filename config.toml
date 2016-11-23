@@ -1,0 +1,4 @@
+theme = "austin"
+baseurl = "tommyr.me"
+title = "A blog about elixir."
+languageCode = "en-us"

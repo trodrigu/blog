@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+    <section>
+      <aside>
+        <div class="logo"><a href="#"><img src="img/caticorn.png"></a>
+          <div class="me-info">
+            <h1>Thomas Rodriguez</h1>
+            <p>A blog about code</p>
+          </div>
+        </div>
+      </aside>
+      <div class="social"> 
+        <div class="me-pic"><img src="img/tommy.png"></div>
+        <div class="me-blurb">
+          <p>Thomas Rodriguez is a developer in San Diego.  He enjoys sand beneath his feet or the warm glow of vim.</p>
+        </div>
+        <div class="me-connect">
+          <div class="left">       
+            <p>His github:</p>
+            <p><a href="https://github.com/trodrigu">trodrigu</a></p>
+          </div>
+          <div class="right"> 
+            <p>He tweets at:</p>
+            <p><a href="https://twitter.com/tom_m_rod">@tom_m_rod</a></p>
+          </div>
+        </div>
+      </div>
+      <article>
+        {{- range first 10 .Data.Pages }}
+        <div class="index-post">
+          <h1>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h1>
+          <div class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+          <p>{{ .Params.snippet }}</p>
+          <a href="{{ .Permalink }}">
+            <div class="read">
+              Read More
+            </div>
+          </a>
+        </div>
+        {{- end }}
+      </article>
+{{ partial "footer.html" . -}}
