@@ -1,4 +1,4 @@
 theme = "austin"
-baseurl = "tommyr.me"
+baseurl = "/"
 title = "A blog about elixir."
 languageCode = "en-us"
