@@ -1,5 +1,5 @@
 +++
-date = "2016-09-08T20:13:29-06:00"
+date = "2015-09-08T20:13:29-06:00"
 title = "Write Some Tests Please"
 snippet = "My second technical interview ever.  Pulled up the demo deployed via heroku and of course... it didn't work as intended."
 
