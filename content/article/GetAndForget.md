@@ -38,7 +38,7 @@ Pretty straight forward right?   Cool.  So now I needed to make sure to transfor
                             |> cast_net_amount_value
 ```
 
-This effort allowed me to turn the `String` data into atom/integer/float types that I need to do the job.  Also utilizing Keyword lists (chosen because of its availability of update methods helped me to pipe my data into calculating the final *total* amount.  Yea buddy.
+This effort allowed me to turn the `String` data into atom/integer/float types that I need to do the job.  Also utilizing Keyword lists (chosen because of its availability of update methods) helped me to pipe my data into calculating the final *total* amount.  Yea buddy.
 
 ```
 defmodule Sales do
@@ -103,7 +103,7 @@ defmodule Sales do
 end
 ```
 
-Most importantly what I want you to notice here is the usage of the `get_and_update` function.  At first when I started using it I though it was kind of weird.  Reasons including that in order for it to work you must return a `Tuple` and not just any `Tuple`, but a `Tuple` that includes the first value being the _original_ value and the second part the entire data structure including the **brand** new do-hickey.  To me it seemed like a bit much to get what I needed (thats what I get from coming from `Ruby` land).  However, I realized that beauty of this is that since we are having to include that _original_ dude we are having a helper in the fight against bugs.  Debugging will be an x-amount easier because we will know at this point *exactly * where we *were*.  Super cool.  Dope.  Also you just pattern match the data you need out and you are *solid*.
+Most importantly what I want you to notice here is the usage of the `get_and_update` function.  At first when I started using it I thought it was kind of weird.  Reasons including that in order for it to work you must return a `Tuple` and not just any `Tuple`, but a `Tuple` that includes the first value being the _original_ value and the second part the entire data structure including the **brand** new do-hickey.  To me it seemed like a bit much to get what I needed (thats what I get from coming from `Ruby` land).  However, I realized that the beauty of this is that since we are having to include that _original_ dude we are having a helper in the fight against bugs.  Debugging will be an x-amount easier because we will know at this point _exactly_ where we _were_.  Super cool.  Dope.  Also you just pattern match the data you need out and you are *solid*.
 
 ```
 defmodule Sales do
