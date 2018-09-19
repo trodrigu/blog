@@ -1,11 +1,11 @@
 +++
-title = "freejexer, rejex with a small feedback loop"
+title = "freegexer, regex with a small feedback loop"
 date = "2018-09-14"
-snippet ="I wanted to make rejex better with a smaller feedback loop.  Coming up with just..."
+snippet ="I wanted to make regex better with a smaller feedback loop.  Coming up with just..."
 
 +++
 
-I wanted to make rejex better with a smaller feedback loop.  Coming up with just the right regex can be a little tedious however there are some tools out there that make things a little easier.  A quick google search returns 10 options for testing rejex patterns.  With that said I still sought to gain understanding by solving this problem with some of Elm's newer libs such as [elm-ui](https://github.com/mdgriffith/elm-ui), and of course natively with Elm [0.19](https://elm-lang.org/blog/small-assets-without-the-headache).
+I wanted to make regex better with a smaller feedback loop.  Coming up with just the right regex can be a little tedious however there are some tools out there that make things a little easier.  A quick google search returns 10 options for testing regex patterns.  With that said I still sought to gain understanding by solving this problem with some of Elm's newer libs such as [elm-ui](https://github.com/mdgriffith/elm-ui), and of course natively with Elm [0.19](https://elm-lang.org/blog/small-assets-without-the-headache).
 
 # Design
 
@@ -38,8 +38,8 @@ Now I had most of my answers so to finish the development I came up with the che
 
 # Result
 
-After about a week of development and learning new APIs I was able to create an MVP which highlights matches. [This](https://github.com/trodrigu/freejexer) is the github repo and go [here](https://affectionate-curie-7b47d0.netlify.com/) for the compiled project.
+After about a week of development and learning new APIs I was able to create an MVP which highlights matches. [This](https://github.com/trodrigu/freegexer) is the github repo and go [here](https://affectionate-curie-7b47d0.netlify.com/) for the compiled project.
 
 # In Closing
 
-I had a great time pulling in new dependencies and learning about super helpful libs like [elm-ui](https://package.elm-lang.org/packages/mdgriffith/elm-ui/1.0.0/), [elm/regex](https://package.elm-lang.org/packages/elm/regex/1.0.0/), and [elm-community/string-extra](https://package.elm-lang.org/packages/elm-community/string-extra/latest/).  I also thought about adding some sort of autocomplete from [elm-autocomplete](https://package.elm-lang.org/packages/thebritican/elm-autocomplete/latest/Autocomplete), but at the moment I'm happy with my little learning experiment.  On another note, I read through elm/regex's github readme and I totally agreed that you should write a parser for your problem domain rather then use complicated regexes when possible.  It is for this reason I am pondering problems that the [parser](https://github.com/elm/parser) could solve.  However, sometimes you need a small regex to grab a month, year or something simple and this is what I wanted freejexer to help with.  Thanks for reading!
+I had a great time pulling in new dependencies and learning about super helpful libs like [elm-ui](https://package.elm-lang.org/packages/mdgriffith/elm-ui/1.0.0/), [elm/regex](https://package.elm-lang.org/packages/elm/regex/1.0.0/), and [elm-community/string-extra](https://package.elm-lang.org/packages/elm-community/string-extra/latest/).  I also thought about adding some sort of autocomplete from [elm-autocomplete](https://package.elm-lang.org/packages/thebritican/elm-autocomplete/latest/Autocomplete), but at the moment I'm happy with my little learning experiment.  On another note, I read through elm/regex's github readme and I totally agreed that you should write a parser for your problem domain rather then use complicated regexes when possible.  It is for this reason I am pondering problems that the [parser](https://github.com/elm/parser) could solve.  However, sometimes you need a small regex to grab a month, year or something simple and this is what I wanted freegexer to help with.  Thanks for reading!
