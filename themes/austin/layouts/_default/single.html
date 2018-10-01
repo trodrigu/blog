@@ -2,9 +2,11 @@
     <div class="post-logo"><a href="{{ .Site.BaseURL }}"><img src="../../img/caticorn.png"></a></div>
     <div class="post-article">
       <h1>{{ .Title }}</h1>
+      {{ if eq .Type "article" }}
       <div class="date">
         {{ .Date.Format "Mon, Jan 2, 2006" }}
       </div>
+      {{ end }}
       {{ .Content }}
     </div>
 {{ partial "footer.html" . -}}

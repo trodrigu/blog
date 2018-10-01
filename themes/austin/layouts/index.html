@@ -15,6 +15,9 @@
         </div>
         <div class="me-connect">
           <div class="left">       
+            <p><a href="{{ "/about/cv" | relURL }}">About</a></p>
+          </div>
+          <div class="left">       
             <p>His github:</p>
             <p><a href="https://github.com/trodrigu">trodrigu</a></p>
           </div>
@@ -25,7 +28,7 @@
         </div>
       </div>
       <article>
-        {{- range first 10 .Data.Pages }}
+        {{ range where .Data.Pages "Section" "article" }}
         <div class="index-post">
           <h1>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
