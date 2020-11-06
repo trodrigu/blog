@@ -28,6 +28,7 @@ share
   [persistLowerCase|
 StatePark
   name String
+  link String
   hasReservation Bool
   deriving Show
 |]
@@ -42,7 +43,7 @@ stateParkScraper :: Scraper String [ScrapedStatePark]
 stateParkScraper' :: Scraper String ScrapedStatePark
 ```
 
-Here you can sort of grok the structure which starts off with an array of arrays, an array of `ScrapedStatePark`s and a single  `ScrapedStatePark`.
+Here you can sort of grok the structure which starts off with an array of `ScrapedStatePark`s and a single  `ScrapedStatePark`.
 
 ```
 -- Scrapers
