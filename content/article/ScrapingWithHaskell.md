@@ -5,17 +5,13 @@ snippet ="In order to test my current knowledge of beginner Haskell I sought to 
 
 +++
 
-# Design
-
-In order to test my current knowledge of beginner Haskell I sought to build something that would actually align with something I've been doing more and more of lately (well less since its approaching winter).  A basic scraper that persists to a db seemed to fit the bill.  The design would be as follows.
+In order to test my current knowledge of beginner Haskell I sought to build something that would actually align with something I've been doing more and more of lately (well less since its approaching winter).  A basic scraper that persists to a db seemed to fit the bill.  Libraries I would use include the following.
 
 - obelisk which features front end and back end dev out of the box
 - scalpel lib for grabbing HTML
 - `Network.HTTP` for HTTP requests
 - persistent for persistence
 - hspec for testing
-
-# Development
 
 At this point I'm still in the exploratory mode as I'm not really sure how much I can get out of the state parks sites.  `stateParksURL = "https://www.parks.ca.gov/?page_id=21805"` is the URL that I'm able to scrape for the top state parks in California.  This seems like a good starting point.
 
