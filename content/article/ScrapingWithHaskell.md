@@ -54,3 +54,5 @@ stateParkScraper = do
 ```
 
 As you can see it was a clean break for mapping the list of state park names and links.  The next part is diving one more level in parsing the data underneath.  Haskell allows enjoying the merits of composition a little easier sometimes :)
+
+Progress is on <a href='https://github.com/trodrigu/camp-notify'>github</a>.
