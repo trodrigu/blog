@@ -4,15 +4,31 @@
 
 > #### Software Engineer
 > #####  San Diego &emsp; [tommyr.me][homepage]
-> `Elm`, `Elixir`, `Ruby`
+> `Elixir`, `Rust`, `Elm`, `Ruby`
 
 ---
-> **"** Thomas Rodriguez is currently a database engineer for Kaiser Permanente's Medicare Operations Reporting department.  He writes data solutions using ETL's, stored procedures and good communication.  He also is a full stack web developer creating projects such as tossbounty.com, tommyr.me, and freegex.com.   
+> **"** Thomas Rodriguez is currently a Backend developer with 8 years of experience in Elixir, C#, and Ruby looking for work.   
 
 
 ---
 ## Experience
-#### Junior Database Developer for Kaiser Permanente &emsp; <small>*February, 2018 - current*</small>
+
+#### Software Engineer for Sameday Health &emsp; <small>*March, 2020 - March, 2023*</small>
+`Elixir`
+> Backend Software engineer role responsible for building lab software BerryDx. 
+- Delivered support for new COVID-19 test kits to aid the creation of a new in house lab further driving the cost to perform testing.
+- Created 3 (Drug Scan, PRL, BioReference) 3rd party Lab integrations to further support the large influx of test samples during the peak of COVID-19 
+- Created feature to allow processing of off site Rapid PCR tests
+- Helped initialize green field app to route samples to appropriate labs and return results which as of 02/23 has supported >1 mil samples
+- Helped billing collect  >$1 mil with SQL queries in Metabase
+
+---
+#### Software Engineer II for LunaDNA &emsp; <small>*February, 2019 - March, 2020*</small>
+`C#`, `Python`
+> Mid-Level Engineer responsible for work on partnership API (Genomelink) integrations, load testing,  automated UI testing, and backend work.
+
+---
+#### Junior Database Developer for Kaiser Permanente &emsp; <small>*February, 2018 - February, 2019*</small>
 `MSSQL`, `Alteryx`, `Oracle`
 > Junior database engineer solving problems for the Medicare Operations Reporting department in the form of ETLs and stored procedures for the MSSQL platform.  Data was sourced from a number of Kaiser medicare databases and transformed into fuel for billing analytics, and quality metrics.  Awarded Alteryx Core Certification.
 
@@ -28,8 +44,11 @@
 
 ---
 ## Open Source
-#### [TossBounty](https://tossbounty.com)
-After seeing a problem with funding open source, TossBounty was conceived and built with Elixir/Phoenix, and Elm along with Stripe for processing to allow maintainers to easily create campaigns.  Code is at github.com/trodrigu/toss_bounty and github.com/trodrigu/toss_bounty_frontend.
+#### [Soft Jobs](https://soft.jobs)
+Elevated job board which scrapes LinkedIn job posts and increases their entertainment value by passing the descriptions through OpenAI's GPT-3.5.  Incorporates great Elixir libraries like Oban, NimbleParsec and Req.
+
+#### [Mathy](https://github.com/trodrigu/mathy)
+A simple computer algebra system which allows evaluation of equations with defined variables.  Also can perform simple arithmetic.  Project was a Rust learning experience.
 
 ---
 #### [Freegex](https://freegex.com)
@@ -43,7 +62,7 @@ Many times when processing large amounts of data a regex pattern was needed to p
 ---
 ## Favorites
 #### Editor
-Visual Studio Code
+Neovim
 #### Operating System
 Mac
 #### Terminal
