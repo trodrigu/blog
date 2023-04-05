@@ -11,11 +11,11 @@
       <div class="social"> 
         <div class="me-pic"><img src="img/tommy.png"></div>
         <div class="me-blurb">
-          <p>Thomas Rodriguez is a developer in San Diego.  He enjoys sand beneath his feet or the warm glow of vim.</p>
+          <p>Thomas Rodriguez enjoys the mountain air and the warm glow of vim.</p>
         </div>
         <div class="me-connect">
           <div class="left">       
-            <p><a href="{{ "/about/cv" | relURL }}">About</a></p>
+            <p><a href="https://www.craft.do/s/7xNk6wx1Aily0Z">About</a></p>
           </div>
           <div class="left">       
             <p>His github:</p>
@@ -28,7 +28,7 @@
         </div>
       </div>
       <article>
-        {{ range where .Data.Pages "Section" "article" }}
+        {{ range where site.RegularPages "Type" "article" }}
         <div class="index-post">
           <h1>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
