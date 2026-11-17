@@ -2,3 +2,6 @@ theme = "austin"
 baseurl = "/"
 title = "A blog about software"
 languageCode = "en-us"
+
+[markup.goldmark.renderer]
+unsafe = true

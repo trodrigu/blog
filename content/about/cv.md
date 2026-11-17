@@ -3,7 +3,7 @@
 ---
 
 > #### Senior Software Engineer
-> #####  Denver, CO &emsp; [tommyr.me][homepage] &emsp; [LinkedIn][linkedin] &emsp; [GitHub][github]
+> #####  Denver, CO &emsp; [tommyr.dev][homepage] &emsp; [LinkedIn][linkedin] &emsp; [GitHub][github]
 > `Elixir`, `SQL`, `Rust`, `Elm`, `C#`, `Ruby`
 
 ---
@@ -72,7 +72,7 @@ A regex tester that highlights matches as you type. I built it because I kept ne
 ---
 ## Writing
 
-> I write about Elm and Elixir at https://tommyr.me
+> I write about Elm and Elixir at https://tommyr.dev
 
 ---
 ## Favorites
@@ -85,6 +85,6 @@ iTerm2
 
 ---
 [avatar]: /img/tommy.png
-[homepage]: https://tommyr.me
+[homepage]: https://tommyr.dev
 [linkedin]: https://www.linkedin.com/in/trod-dev/
 [github]: https://github.com/trodrigu
